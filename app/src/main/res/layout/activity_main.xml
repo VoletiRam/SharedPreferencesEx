@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.sharedpreferencesex.MainActivity">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000001"
+        android:text="Registration page" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:hint="Name"
+        android:gravity="center"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:layout_width="150dp"
+        android:hint="Email"
+        android:gravity="center"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:id="@+id/pwd"
+        android:layout_width="150dp"
+        android:hint="Password"
+        android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Register"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:onClick="nextPage"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Register"/>
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center"
+        android:layout_height="2dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Click Here to Login"
+            android:id="@+id/login"
+            android:onClick="login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+</LinearLayout>

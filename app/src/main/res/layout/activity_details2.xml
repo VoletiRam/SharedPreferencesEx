@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.sharedpreferencesex.Details2"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/email"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/pwd"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>
